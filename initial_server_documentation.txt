@@ -1,0 +1,51 @@
+# Cosmic Hybrid Solutions - Initial Server Documentation
+
+## Server Identification
+
+* Hostname: ubuntuserver
+* Kernel Information: Linux ubuntuserver 6.11.0-25-generic #25~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 17:20:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+* Operating System:
+    * OS Release:
+		PRETTY_NAME="Ubuntu 24.04.2 LTS"
+		NAME="Ubuntu"
+		VERSION_ID="24.04"
+		VERSION="24.04.2 LTS (Noble Numbat)"
+		VERSION_CODENAME=noble
+		ID=ubuntu
+		ID_LIKE=debian
+		HOME_URL="https://www.ubuntu.com/"
+		SUPPORT_URL="https://help.ubuntu.com/"
+		BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+		PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+		UBUNTU_CODENAME=noble
+		LOGO=ubuntu-logo
+
+## Disk Space Usage
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.6M  391M   1% /run
+/dev/vda2        25G   12G   13G  48% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  112K  392M   1% /run/user/1000
+
+## Memory Usage
+
+            total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       2.0Gi        40Mi       881Mi       2.6Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+
+## Initial User Accounts and Group Memberships
+
+* Username: mbecton, User ID: 1000, Primary Group: mbecton, Secondary Groups: adm, cdrom, sudo, dip, plugdev, users, lpadmin, operations
+* Username: asmith, User ID: 1001, Primary Group: bjones, Secondary Groups: users, operations
+* Username: bjones, User ID: 1002, Primary Group: bjones, Secondary Groups: users, operations
+* Username: cbrown, User ID: 1004, Primary Group: cbrown, Secondary Groups: users, support
+
+## Initial Groups
+
+* Group Name: developers, Group ID: 1000
+* Group Name: operations, Group ID: 1007
+* Group Name: support, Group ID: 1008
+* Group Name: sudo, Group ID: 27
