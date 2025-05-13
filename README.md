@@ -30,15 +30,23 @@ Here's a breakdown of the steps I took to gather this information:
     * `lsb_release -a` (if available) / `cat /etc/os-release`: To figure out which flavor of Linux we're running (it's Ubuntu Server!).
     * `df -h`: To check how much storage we've got and how it's being used.
     * `free -h`: To see how our memory is looking.
-    * *(Screenshot of `hostname` output)*
-    * *(Screenshot of `uname -a` output)*
-    * *(Screenshot of OS release info)*
-    * *(Screenshot of `df -h` output)*
-    * *(Screenshot of `free -h` output)*
+    * ![hostname](https://github.com/user-attachments/assets/1d6b15a3-bdb0-4606-97ef-16c194aa264e)
+
+    * *![uname](https://github.com/user-attachments/assets/6d4bfb33-cd0e-4e96-bfae-384229e70199)
+
+    * ![os-release](https://github.com/user-attachments/assets/42b97b90-aa52-4f59-8f9d-d6fc1a9e3d77)
+
+    * ![df-h](https://github.com/user-attachments/assets/b433ddfb-1670-4104-89a4-ea791a4d950c)
+
+    * ![Screenshot from 2025-05-13 11-55-55](https://github.com/user-attachments/assets/c9661cb1-155a-47d9-beee-4e4a2028996a)
+
 3.  **User Deep Dive:** I then looked into the existing user accounts using:
     * `cat /etc/passwd`: This gave me a list of all the users, their IDs, and primary groups. I noted down the initial system users, as well as the accounts I set up for our initial team: `alice.smith`, `bob.jones`, `charlie.brown`, and my own.
     * `groups <username>`: For each of these key users, I ran the `groups` command to see any secondary groups they belong to.
-    * *(Screenshot of a relevant section of `/etc/passwd`)*
+    * ![passwd1](https://github.com/user-attachments/assets/f702bce7-9646-4433-aa7b-22e346e63b50)
+    * ![passwd2](https://github.com/user-attachments/assets/980f4de1-8e42-46b8-bcd6-d2ef159fa055)
+
+
     * *(Screenshot of `groups alice.smith` output)*
     * *(Screenshot of `groups bob.jones` output)*
     * *(Screenshot of `groups charlie.brown` output)*
