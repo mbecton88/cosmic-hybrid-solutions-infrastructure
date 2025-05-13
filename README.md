@@ -11,7 +11,11 @@ Cosmic Hybrid Solutions aims to revolutionize team collaboration and productivit
 
 ## Project Goal: Laying the Documentation Foundation
 
-My first project is to create a comprehensive document detailing the initial configuration of this primary Linux server. This will serve as a crucial reference point as our infrastructure evolves and our team grows. Good documentation from the start will save us headaches down the line!
+My first project is to create a comprehensive document detailing the initial configuration of this primary Linux server. This will serve as a crucial reference point as our infrastructure evolves and our team grows. Good documentation from the start will save us headaches down the line! Below is the final result. Following are the steps that I took to create this text file.
+
+![init_config](https://github.com/user-attachments/assets/06fb0830-8024-4c3d-b84d-d105e825bdb4)
+
+
 
 ## Requirements: What I Needed to Capture
 
